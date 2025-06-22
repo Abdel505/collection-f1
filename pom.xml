@@ -117,6 +117,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <commons.jacoco.version>0.8.11</commons.jacoco.version>
     <commons.jmh.version>1.37</commons.jmh.version>
+    <benchmark>benchmarks.collections</benchmark>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -438,6 +439,50 @@
         </pluginRepository>
       </pluginRepositories>
     </profile>
+    <profile>
+      <id>benchmark</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <properties>
+        <benchmark>benchmarks.collections</benchmark>
+      </properties>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.4.1</version>
+            <executions>
+              <execution>
+                <id>run-jmh</id>
+                <phase>test</phase>
+                <goals><goal>exec</goal></goals>
+                <configuration>
+                  <classpathScope>test</classpathScope>
+                  <executable>java</executable>
+                  <arguments>
+                    <argument>-classpath</argument><classpath/>
+                    <argument>org.openjdk.jmh.Main</argument>
+
+
+                    <!-- result format + file -->
+                    <argument>-rf</argument><argument>json</argument>
+                    <argument>-rff</argument><argument>target/jmh-result.json</argument>
+
+                    <!-- regex that picks ONE benchmark method -->
+                    
+                    <argument>.*BagBenchmark.*</argument>
+
+                  </arguments>
+
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>    
   </profiles>
 
   <developers>
