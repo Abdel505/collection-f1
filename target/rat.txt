@@ -2,14 +2,14 @@
 *****************************************************
 Summary
 -------
-Generated at: 2025-05-03T14:18:01+02:00
+Generated at: 2025-06-22T19:03:16+02:00
 
 Notes: 3
 Binaries: 2
 Archives: 0
-Standards: 714
+Standards: 726
 
-Apache Licensed: 714
+Apache Licensed: 726
 Generated Documents: 0
 
 JavaDocs are generated, thus a license header is optional.
@@ -47,6 +47,19 @@ Generated files do not require license headers.
   AL    src/conf/checkstyle.xml
   AL    src/conf/findbugs-exclude-filter.xml
   AL    src/conf/license-header.txt
+  AL    src/main/java/benchmarks/collections/ArrayStackBenchmark.java
+  AL    src/main/java/benchmarks/collections/BagBenchmark.java
+  AL    src/main/java/benchmarks/collections/BidiMapBenchmark.java
+  AL    src/main/java/benchmarks/collections/TreeListBenchmark.java
+  AL    src/main/java/benchmarks/collections/TrieBenchmark.java
+  AL    src/main/java/benchmarks/comparison/ListComparisonBenchmark.java
+  AL    src/main/java/benchmarks/comparison/MapComparisonBenchmark.java
+  AL    src/main/java/benchmarks/comparison/StackComparisonBenchmark.java
+  AL    src/main/java/benchmarks/Main.java
+  AL    src/main/java/benchmarks/utilities/ComparatorUtilsBenchmark.java
+  AL    src/main/java/benchmarks/utilities/IteratorUtilsBenchmark.java
+  AL    src/main/java/benchmarks/utilities/PredicateBenchmark.java
+  AL    src/main/java/benchmarks/utilities/TransformerBenchmark.java
   AL    src/main/java/org/apache/commons/collections4/ArrayStack.java
   AL    src/main/java/org/apache/commons/collections4/ArrayUtils.java
   AL    src/main/java/org/apache/commons/collections4/bag/AbstractBagDecorator.java
@@ -416,7 +429,6 @@ Generated files do not require license headers.
   AL    src/site/resources/css/LaTeXML.css
   AL    src/site/resources/css/references.css
   B     src/site/resources/images/logo.png
-  AL    src/site/resources/profile.jacoco
   AL    src/site/site.xml
   AL    src/site/xdoc/building.xml
   AL    src/site/xdoc/compatibility.xml

@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.apache.commons.collections4.map.UnmodifiableOrderedMapTest
--------------------------------------------------------------------------------
-Tests run: 66, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.054 s -- in org.apache.commons.collections4.map.UnmodifiableOrderedMapTest

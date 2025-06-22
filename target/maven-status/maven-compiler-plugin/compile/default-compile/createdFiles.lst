@@ -40,6 +40,7 @@ org\apache\commons\collections4\list\TreeList$TreeListIterator.class
 org\apache\commons\collections4\bloomfilter\BitMapExtractor$1Bits.class
 org\apache\commons\collections4\bloomfilter\BitMaps.class
 org\apache\commons\collections4\bidimap\UnmodifiableBidiMap.class
+benchmarks\collections\jmh_generated\BagBenchmark_testSynchronizedBagRemove_jmhTest.class
 org\apache\commons\collections4\bidimap\AbstractDualBidiMap.class
 org\apache\commons\collections4\map\ConcurrentReferenceHashMap$Segment.class
 org\apache\commons\collections4\bloomfilter\BitMapExtractor.class
@@ -56,9 +57,11 @@ org\apache\commons\collections4\list\PredicatedList$PredicatedListIterator.class
 org\apache\commons\collections4\multiset\AbstractMultiSet$AbstractEntry.class
 org\apache\commons\collections4\IterableUtils$7$1.class
 org\apache\commons\collections4\IterableUtils$UnmodifiableIterable.class
+benchmarks\collections\jmh_generated\BagBenchmark_jmhType_B2.class
 org\apache\commons\collections4\functors\InstanceofPredicate.class
 org\apache\commons\collections4\collection\CompositeCollection$CollectionMutator.class
 org\apache\commons\collections4\map\PredicatedSortedMap.class
+benchmarks\collections\jmh_generated\BagBenchmark_testTreeBagAdd_jmhTest.class
 org\apache\commons\collections4\map\AbstractLinkedMap$EntrySetIterator.class
 org\apache\commons\collections4\map\AbstractReferenceMap$ReferenceEntrySetIterator.class
 org\apache\commons\collections4\functors\PrototypeFactory$PrototypeCloneFactory.class
@@ -282,11 +285,14 @@ org\apache\commons\collections4\bloomfilter\IndexExtractor$3.class
 org\apache\commons\collections4\bloomfilter\CellExtractor$1$CounterCell.class
 org\apache\commons\collections4\map\AbstractOrderedMapDecorator.class
 org\apache\commons\collections4\trie\AbstractPatriciaTrie$PrefixRangeEntrySet$EntryIterator.class
+META-INF\CompilerHints
 org\apache\commons\collections4\multimap\package-info.class
 org\apache\commons\collections4\set\AbstractNavigableSetDecorator.class
 org\apache\commons\collections4\bidimap\TreeBidiMap$ViewMapIterator.class
 org\apache\commons\collections4\functors\IfClosure.class
+benchmarks\collections\jmh_generated\BagBenchmark_testTreeBagGetCount_jmhTest.class
 org\apache\commons\collections4\functors\NullIsTruePredicate.class
+benchmarks\Main.class
 org\apache\commons\collections4\CollectionUtils$SetOperationCardinalityHelper.class
 org\apache\commons\collections4\map\ListOrderedMap$ListOrderedMapIterator.class
 org\apache\commons\collections4\bloomfilter\LayerManager$1.class
@@ -302,6 +308,7 @@ org\apache\commons\collections4\map\AbstractReferenceMap$ReferenceMapIterator.cl
 org\apache\commons\collections4\iterators\LoopingIterator.class
 org\apache\commons\collections4\iterators\EmptyIterator.class
 org\apache\commons\collections4\bidimap\UnmodifiableOrderedBidiMap.class
+benchmarks\collections\jmh_generated\BagBenchmark_testHashBagAdd_jmhTest.class
 org\apache\commons\collections4\map\ListOrderedMap$EntrySetView.class
 org\apache\commons\collections4\list\AbstractLinkedList$Node.class
 org\apache\commons\collections4\iterators\UnmodifiableOrderedMapIterator.class
@@ -351,6 +358,7 @@ org\apache\commons\collections4\multimap\AbstractMultiValuedMap$WrappedCollectio
 org\apache\commons\collections4\functors\FalsePredicate.class
 org\apache\commons\collections4\trie\AbstractBitwiseTrie.class
 org\apache\commons\collections4\map\ConcurrentReferenceHashMap$Builder.class
+benchmarks\collections\jmh_generated\BagBenchmark_jmhType_B1.class
 org\apache\commons\collections4\bag\UnmodifiableSortedBag.class
 org\apache\commons\collections4\functors\CatchAndRethrowClosure.class
 org\apache\commons\collections4\keyvalue\TiedMapEntry.class
@@ -408,6 +416,7 @@ org\apache\commons\collections4\bloomfilter\IndexFilter.class
 org\apache\commons\collections4\bloomfilter\BitMapExtractor$1.class
 org\apache\commons\collections4\map\LinkedMap.class
 org\apache\commons\collections4\iterators\UniqueFilterIterator.class
+benchmarks\collections\jmh_generated\BagBenchmark_jmhType_B3.class
 org\apache\commons\collections4\set\package-info.class
 org\apache\commons\collections4\splitmap\TransformedSplitMap.class
 org\apache\commons\collections4\functors\InstantiateFactory.class
@@ -443,6 +452,7 @@ org\apache\commons\collections4\map\ConcurrentReferenceHashMap$Option.class
 org\apache\commons\collections4\multimap\AbstractMultiValuedMap$EntryValues$1.class
 org\apache\commons\collections4\bag\package-info.class
 org\apache\commons\collections4\properties\SortedProperties.class
+benchmarks\collections\jmh_generated\BagBenchmark_testSynchronizedBagGetCount_jmhTest.class
 org\apache\commons\collections4\IterableGet.class
 org\apache\commons\collections4\map\PassiveExpiringMap$ExpirationPolicy.class
 org\apache\commons\collections4\map\AbstractReferenceMap$WeakRef.class
@@ -457,6 +467,7 @@ org\apache\commons\collections4\list\CursorableLinkedList$SubCursor.class
 org\apache\commons\collections4\TrieUtils.class
 org\apache\commons\collections4\splitmap\AbstractIterableGetMapDecorator.class
 org\apache\commons\collections4\iterators\ObjectArrayIterator.class
+benchmarks\collections\jmh_generated\BagBenchmark_testHashBagGetCount_jmhTest.class
 org\apache\commons\collections4\map\MultiValueMap$Values.class
 org\apache\commons\collections4\functors\AnyPredicate.class
 org\apache\commons\collections4\map\ListOrderedMap$KeySetView$1.class
@@ -522,6 +533,7 @@ org\apache\commons\collections4\multiset\AbstractMapMultiSet.class
 org\apache\commons\collections4\bloomfilter\SparseBloomFilter.class
 org\apache\commons\collections4\SetUtils$SetView.class
 org\apache\commons\collections4\trie\AbstractPatriciaTrie$KeySet.class
+benchmarks\collections\jmh_generated\BagBenchmark_jmhType.class
 org\apache\commons\collections4\bloomfilter\package-info.class
 org\apache\commons\collections4\iterators\AbstractEmptyIterator.class
 org\apache\commons\collections4\bloomfilter\BloomFilter.class
@@ -529,6 +541,7 @@ org\apache\commons\collections4\functors\ExceptionClosure.class
 org\apache\commons\collections4\list\TransformedList.class
 org\apache\commons\collections4\bidimap\AbstractDualBidiMap$ValuesIterator.class
 org\apache\commons\collections4\trie\KeyAnalyzer.class
+META-INF\BenchmarkList
 org\apache\commons\collections4\CollectionUtils$CardinalityHelper.class
 org\apache\commons\collections4\trie\AbstractPatriciaTrie$RangeEntrySet$EntryIterator.class
 org\apache\commons\collections4\multimap\TransformedMultiValuedMap.class
@@ -549,6 +562,7 @@ org\apache\commons\collections4\map\MultiValueMap$1$1.class
 org\apache\commons\collections4\iterators\EmptyListIterator.class
 org\apache\commons\collections4\map\AbstractReferenceMap$SoftRef.class
 org\apache\commons\collections4\bidimap\DualTreeBidiMap$BidiOrderedMapIterator.class
+benchmarks\collections\jmh_generated\BagBenchmark_testTreeBagRemove_jmhTest.class
 org\apache\commons\collections4\iterators\ReverseListIterator.class
 org\apache\commons\collections4\Put.class
 org\apache\commons\collections4\multimap\AbstractListValuedMap$WrappedList.class
@@ -564,6 +578,7 @@ org\apache\commons\collections4\map\ConcurrentReferenceHashMap$KeyReference.clas
 org\apache\commons\collections4\map\AbstractMapDecorator.class
 org\apache\commons\collections4\map\ReferenceMap.class
 org\apache\commons\collections4\bloomfilter\LayeredBloomFilter$Finder.class
+benchmarks\collections\BagBenchmark.class
 org\apache\commons\collections4\bloomfilter\IndexExtractor$1Indices.class
 org\apache\commons\collections4\bag\TransformedBag.class
 org\apache\commons\collections4\iterators\IteratorIterable.class
@@ -599,7 +614,9 @@ org\apache\commons\collections4\bloomfilter\LongBiPredicate.class
 org\apache\commons\collections4\map\StaticBucketMap$1.class
 org\apache\commons\collections4\bidimap\TreeBidiMap$Node.class
 org\apache\commons\collections4\list\AbstractLinkedListJava21$LinkedSubList.class
+benchmarks\collections\jmh_generated\BagBenchmark_testHashBagRemove_jmhTest.class
 org\apache\commons\collections4\sequence\InsertCommand.class
+benchmarks\collections\jmh_generated\BagBenchmark_testSynchronizedBagAdd_jmhTest.class
 org\apache\commons\collections4\comparators\NullComparator.class
 org\apache\commons\collections4\iterators\FilterIterator.class
 org\apache\commons\collections4\map\ConcurrentReferenceHashMap$SoftKeyReference.class

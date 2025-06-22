@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="maven-antrun-" default="main">
   <target name="main">
-    <copy todir="C:\Users\ww\Desktop\test\commons-collections\target/apidocs/META-INF">
-      <fileset dir="C:\Users\ww\Desktop\test\commons-collections">
+    <copy todir="C:\Users\ww\Desktop\collection-all-3\commons-collections\target/apidocs/META-INF">
+      <fileset dir="C:\Users\ww\Desktop\collection-all-3\commons-collections">
         <include name="LICENSE.txt" />
         <include name="NOTICE.txt" />
         <include name="LICENSE" />
