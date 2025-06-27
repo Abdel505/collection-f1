@@ -49,6 +49,7 @@ jobs:
           mvn --batch-mode --no-transfer-progress verify sonar:sonar \
             -Dsonar.projectKey=key-coll-f1_collection-f1 \
             -Dsonar.organization=key-coll-f1 \
-            -Dsonar.host.url=https://sonarcloud.io
+            -Dsonar.host.url=https://sonarcloud.io \
+            -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
