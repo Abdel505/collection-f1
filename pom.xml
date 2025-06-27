@@ -429,7 +429,7 @@
                     <pathconvert pathsep=" " property="dirs">
                       <dirset dir="${commons.scmPubCheckoutDirectory}" includes="*" />
                     </pathconvert>
-                    <exec executable=a"svn">
+                    <exec executable="svn">
                       <arg line="update --set-depth infinity ${dirs}" />
                     </exec>
                   </target>
