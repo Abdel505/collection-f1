@@ -33,6 +33,8 @@ jobs:
           mvn --batch-mode --no-transfer-progress clean compile test-compile \
             -Dmaven.compiler.source=$JAVA_SOURCE \
             -Dmaven.compiler.target=$JAVA_SOURCE
+      - name: Run Maven Benchmark Profile
+        run: mvn -Pbenchmark -T 3C
 
   sonar-analysis:
     needs: compilation-checks
