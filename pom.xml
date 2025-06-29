@@ -456,6 +456,26 @@
         </pluginRepository>
       </pluginRepositories>
     </profile>
+      <profile>
+        <id>benchmark</id>
+        <build>
+          <plugins>
+            <plugin>
+              <groupId>org.openjdk.jmh</groupId>
+              <artifactId>jmh-maven-plugin</artifactId>
+              <version>${commons.jmh.version}</version>
+              <executions>
+                <execution>
+                  <goals>
+                    <goal>benchmark</goal>
+                  </goals>
+                </execution>
+              </executions>
+            </plugin>
+          </plugins>
+        </build>
+      </profile>
+     
   </profiles>
 
   <developers>
