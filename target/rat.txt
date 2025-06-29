@@ -2,11 +2,11 @@
 *****************************************************
 Summary
 -------
-Generated at: 2025-06-25T00:13:54+02:00
+Generated at: 2025-06-28T17:37:59+02:00
 
 Notes: 3
 Binaries: 2
-Archives: 0
+Archives: 1
 Standards: 726
 
 Apache Licensed: 726
@@ -17,6 +17,10 @@ Generated files do not require license headers.
 
 0 Unknown Licenses
 
+Archives:
+
+ + randoop-4.3.3.jar
+ 
 *****************************************************
   Files with Apache License headers will be marked AL
   Binary files (which do not require any license headers) will be marked B
@@ -36,6 +40,7 @@ Generated files do not require license headers.
   N     NOTICE.txt
   AL    pom.xml
   AL    PROPOSAL.html
+  A     randoop-4.3.3.jar
   AL    README.md
   N     RELEASE-NOTES.txt
   AL    SECURITY.md
